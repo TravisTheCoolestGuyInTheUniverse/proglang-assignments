@@ -7,7 +7,6 @@ len=${#testfilePathArray[@]}
 #replace contents of results with current time  
 echo $(date) > ../testResults/$executable
 
-#echo $len
 echo testing $executable":"
 for ((i=0; i<len; i++)); do
 #use input from testi and send output to currentTest
@@ -19,7 +18,7 @@ then
 echo test$t PASS 
 echo test$t PASS >> ../testResults/$executable
 else
-echo test$t PASS
+echo test$t FAIL
 echo test$t FAIL >> ../testResults/$executable
 fi
 done

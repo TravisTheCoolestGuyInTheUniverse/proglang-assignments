@@ -34,8 +34,8 @@ test1 PASS
 test2 PASS
 test3 PASS
 test4 PASS
-test5 PASS
-test6 PASS
+test5 FAIL
+test6 FAIL
 test7 PASS
 testing addCorrectf:
 test1 PASS
@@ -50,6 +50,6 @@ test1 PASS
 test2 PASS
 test3 PASS
 test4 PASS
-test5 PASS
-test6 PASS
+test5 FAIL
+test6 FAIL
 test7 PASS
