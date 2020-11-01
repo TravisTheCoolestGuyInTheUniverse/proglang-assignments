@@ -1,0 +1,55 @@
+The purpose of this assignment was to become more familiar with bash scripting and to use a 
+language that we are not familiar with. 
+
+compile.sh will compile a source file and put the resulting executable in the "executable" directory.
+use:
+./compile.sh [file name(without file extension)] [language]
+ex. 
+./compile.sh addCorrect fortran
+
+test.sh will test the output of an executable against verified correct output in the "Correct" directory
+using input from the "testFiles" directory. It will send the results of each test both to the terminal 
+and to a file that is the name of the executable in the "testResults" folder. 
+use:
+./test.sh [executable filename]
+ex.
+./test addCorrectc (notice that the c at the end differentiates between c++ and fortran executables)
+
+testAndCompile.sh will automatically compile all files and test them against verified correct output.
+use:
+./testAndCompile.sh
+
+*** EXAMPLE OUTPUT  ***
+
+testing addCorrectc:
+test1 PASS
+test2 PASS
+test3 PASS
+test4 PASS
+test5 PASS
+test6 PASS
+test7 PASS
+testing addIncorrectc:
+test1 PASS
+test2 PASS
+test3 PASS
+test4 PASS
+test5 PASS
+test6 PASS
+test7 PASS
+testing addCorrectf:
+test1 PASS
+test2 PASS
+test3 PASS
+test4 PASS
+test5 PASS
+test6 PASS
+test7 PASS
+testing addIncorrectf:
+test1 PASS
+test2 PASS
+test3 PASS
+test4 PASS
+test5 PASS
+test6 PASS
+test7 PASS
