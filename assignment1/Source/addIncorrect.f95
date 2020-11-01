@@ -2,7 +2,6 @@ program addInorrect
     integer :: x
     integer :: y
     print *, "Enter two integers to be added together."
-    print *, "Input: "
     read *, x, y
     x = ABS(x)
     y = ABS(y)
