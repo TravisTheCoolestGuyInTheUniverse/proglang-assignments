@@ -6,7 +6,7 @@ class testParameters {
     }
 
     public static void testArrays(int formal1[]) {
-        System.out.print("array during function call: ");
+        System.out.print("Array during function call: ");
         printArray(formal1);
         System.out.println();
         formal1[0] = 12;
@@ -20,7 +20,7 @@ class testParameters {
     }
 
     public static void testClass(Simple formal1) {
-        System.out.println("class member variables inside function: " + formal1.x + " " + formal1.yeet);
+        System.out.println("member variables inside function call: " + formal1.x + " " + formal1.yeet);
         formal1.x = 1;
         formal1.yeet = "no yeet";
 

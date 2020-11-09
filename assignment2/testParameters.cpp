@@ -4,7 +4,7 @@
 using namespace std;
 
 void testPrimitiveValue(int formal1, int& formal2) {
-    cout << "formal parameters inside: " << formal1 << " " << formal2 << endl;
+    cout << "primitive inside function call: " << formal1 << " " << formal2 << endl;
     formal1 = 1;
     formal2 = 3;
 }
@@ -41,7 +41,7 @@ class simple {
 };
 
 void testClass(simple formal1) {
-    cout << "class values inside function: " << formal1.x << " " << formal1.yeet << endl;
+    cout << "class member variables inside function call: " << formal1.x << " " << formal1.yeet << endl;
     formal1.x = 12;
     formal1.yeet = "yeet is a stupid word";
 }
