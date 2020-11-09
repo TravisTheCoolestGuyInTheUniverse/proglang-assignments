@@ -1,0 +1,9 @@
+things that I want to test: 
+
+1. I want to see how primitive data types are passed in each language
+    -is it possible to change the default way of passing a primitive value?
+2. I want to see how class objects are passed in each language
+    -is it possible to change the default way of passing a class object?
+3. I want to see how extremely large objects are passed in each language. 
+    -is it possible to change the default way of passing a large object like an array?
+
