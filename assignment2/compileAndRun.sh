@@ -7,6 +7,6 @@ g++ $sourceFile
 ./a.out
 else if test $language == "java"
 then 
-java sourceFile
+java $sourceFile
 fi
 fi
