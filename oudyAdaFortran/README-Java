@@ -1,0 +1,8 @@
+Assuming we have a file Called HelloWorld.java which contoins simple Java code to print 
+"Hello World" on the screen.
+
+We compile this file with the command:
+   javac HelloWorld.java
+
+This creates a .class file. We can then execute (interpret) the program with the command:
+     java HelloWorld

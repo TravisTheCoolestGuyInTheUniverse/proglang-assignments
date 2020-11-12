@@ -1,0 +1,15 @@
+Assuming we have a file Called HelloWorld.c which contains simple C code to print "Hello World" on the screen.
+
+We compile this file with the command:
+   gcc -c HelloWorld.c
+
+This creates a .o file. THis is an object file which must be linked in order to create an executable file. 
+This is done with the command
+   gcc HellloWorld.o -o HelloWorld
+
+This creates an executable file called HelloWorld, which can then be executed by typing:
+   ./HelloWorld
+
+
+It is possible to combine the two gcc commands into a single statement and enter:
+   gcc HelloWorld.cc -o HelloWorld

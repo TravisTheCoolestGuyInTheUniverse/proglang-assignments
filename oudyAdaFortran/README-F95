@@ -1,0 +1,9 @@
+Assuming we have a file called HelloWorld.f95 which contains simple Fortran95 code to print 
+"Hello World" on the screen.
+
+We compile this file with the command:
+   gfortran HelloWorld.f95 -o HelloWorld
+
+This creates an executable file called HelloWorld, which can then be executed by typing:
+   ./HelloWorld
+
