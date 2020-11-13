@@ -1,4 +1,4 @@
-./compile.sh helloworld c++
-./compile.sh helloworld ada
-./run.sh helloworldc
-./run.sh helloworld
+./compile.sh sort c++
+./compile.sh sort ada
+./test.sh sortc
+./test.sh sort
