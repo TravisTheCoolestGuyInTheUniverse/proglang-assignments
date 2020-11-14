@@ -8,9 +8,10 @@ then
 g++ -o $filename"c" ../Source/$filename.cpp
 else if test $language == "ada"
 then
-gnat compile ../Source/$filename.adb
-gnatbind $filename
-gnatlink $filename
+gnat make ../Source/$filename
+#gnat compile ../Source/$filename.adb
+#gnatbind $filename
+#gnatlink $filename
 rm $filename.ali
 rm $filename.o
 else 

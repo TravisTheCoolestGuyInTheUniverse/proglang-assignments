@@ -1,0 +1,28 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U sort%b		sort.adb		9c725736 NE OO SU GE
+
+U sort%s		sort.ads		290ad498 BN EE NE OO GE
+
+D sort.ads		20201113225226 290ad498 sort%s
+D sort.adb		20201113223728 b57883ae sort%b
+D system.ads		20200312110721 4635ec04 system%s
+X 1 sort.ads
+2+10 ELEMENT 3r33 5r43 2|2r16
+3V20 ">"{boolean} 3>24 3>28 2|6s28
+3*24 I1{2+10}
+3*28 I2{2+10}
+4E10 INDEX 5r24
+5A10 RAY(2+10)<4E10> 6r30 2|1r34
+6u11*Sort 6=16 2|1b15 14l9 14t13
+6*16 Data{5A10} 2|1b20 4r18 5r25 6r20 6r30 7r29 8m21 8r32 9m21
+X 2 sort.adb
+2*9 Temp{1|2+10} 7m21 9r32
+4e13 I 5r22 6r25 7r34 8r26
+5e17 J 6r35 8r37 9r26
+
