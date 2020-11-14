@@ -1,6 +1,8 @@
     procedure Sort(Data : in out RAY) is
+        --Temp is abstract type ELEMENT
         Temp : ELEMENT;
     begin
+        --exchange sort algorithm
         for I in Data'Range loop
             for J in I..Data'Last loop
                 if Data(I) > Data(J) then
@@ -10,5 +12,4 @@
                 end if;
             end loop;
         end loop;
-        --return Data;
     end Sort;

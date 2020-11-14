@@ -1,4 +1,4 @@
 ./compile.sh sort c++
-./compile.sh sort ada
+./compile.sh main ada
 ./test.sh sortc
-./test.sh sort
+./test.sh main

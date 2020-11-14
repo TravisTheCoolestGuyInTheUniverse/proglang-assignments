@@ -12,8 +12,8 @@ gnat make ../Source/$filename
 #gnat compile ../Source/$filename.adb
 #gnatbind $filename
 #gnatlink $filename
-rm $filename.ali
-rm $filename.o
+rm *.ali
+rm *.o
 else 
 echo "$language is not a supported language in this script"
 fi 

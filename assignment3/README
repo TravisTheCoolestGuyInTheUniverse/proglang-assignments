@@ -1,0 +1,14 @@
+The purpose of this assignment was to become more familiar with how code is reused in familiar and 
+unfamiliar programming languages. A generic/abstract exchange sort subprogram subprogram that is 
+implemented in c++ and ada.
+
+to run: 
+
+cd /Scripts
+./compileAndTestAll.sh
+
+the above will compile the Ada and C++ source code, and execute it with input from the Test directory.
+Output for the C++ and ada program are tested against verified correct input in the Correct directory.
+Results of each test will be sent to standard output as well as the testResults directory. The testResults
+directory will have a file for the test results of each program with filenames corresponding to the names
+of the executables tested.
